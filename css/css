@@ -87,7 +87,7 @@ a{
 }
 
 /*------ALL------- */
-/* .achivement{
+ .achivement{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -636,6 +636,8 @@ overflow: hidden;
         position: fixed;
     width: 1440px;
     height: 677px;
+    
+
     top: 0px;
     left: 0px;
     z-index: 100;
