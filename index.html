@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="./css/desktop.css"/>
   <!-- ++++++++++BODY++++++++ -->
 <body class="hero">
-  <!-- <header class="main-head ">
+  <header class="main-head "> 
     <div class="hero-navigation container">
         <nav class="navigation">
         <a class="body-logo link" href="./index.html" >Web<span class="body-web-name">Studio</span></a>
@@ -29,7 +29,12 @@
           <li ><a class="body-nav-link link" href="./portfolio.html">Portfolio</a></li>
           <li ><a class="body-nav-link link" href="">Contacts</a></li>
         </ul>
-    </nav>  
+    </nav>
+    <button class="mobile-menu-btn" type="button">
+      <svg class="mobile-menu-open-icon" width="32" height="22">
+       <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
+      </svg>
+    </button>  
     <address class="index-connection">
       <ul class="list-index-connection list">
         <li class="list-information link">
@@ -39,8 +44,23 @@
       </ul>
     </address> 
     </div>
-  </header> -->
-<main>
+    <div class="mobile-menu">
+      <button type="button" class="mobile-menu-close-button" data-modal-close>
+        <svg class="modal-close-button-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-modal-close">
+          </use>
+        </svg>
+        </button>
+        <div class="mobile-hero-navigation container">
+          <ul class="mobile-menu list">
+            <li class="mobile-menu-body-nav-link"><a class="mobile-body-nav-link curent link" href="./index.html">Studio</a></li>
+            <li ><a class="mobile-body-nav-link link" href="./portfolio.html">Portfolio</a></li>
+            <li ><a class="mobile-body-nav-link link" href="">Contacts</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+<!-- <main> -->
   <!-- ++++++++ -->
   <!-- <section class="main-section ">
     <div class="section container">
@@ -104,8 +124,8 @@
     </ul>
     </div>
 </section> -->
-  <section class="employee ">
-    <div class="container">
+  <!-- <section class="employee "> -->
+    <!-- <div class="container">
     <h2 class="products" >Our Team</h2>
     <ul class="list">
       <li class="photo">
@@ -263,8 +283,8 @@
             </li>
            </ul></div>
     </ul>
-</div>
-</section>
+</div> -->
+<!-- </section> -->
    <!-- <section class="customers-section">
     <div class="container">
       <h2 class="customers" >Customers</h2>
@@ -320,7 +340,7 @@
         </ul>
        </div>
 </section> -->
-  </main>
+  <!-- </main> -->
   <!-- <footer class="footer">
     <div class="footer-container container">
       <div class="logo-footer-conclusion">
