@@ -633,7 +633,7 @@ overflow: hidden;
 } */ 
 
 /* ===============BACKDROP============ */
-.backdrop{
+/* .backdrop{
         position: fixed;
     width: 1440px;
     height: 677px;
@@ -689,13 +689,13 @@ transition: background-color var(--transition), border var(--transition) ;
 }
 .modal-close-button-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* ===============/BACKDROP============ */
 
 
 
 /* ===============FORM============ */
-.agree-with-policy{
+/* .agree-with-policy{
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -795,7 +795,7 @@ transition: fill var(--transition);
     gap: 8px;
     align-items: center;
     font-size: 12px;
-    line-height: 1.16; */
+    line-height: 1.16; 
     letter-spacing: 0.04em;
     color: #8E8F99;
     font-size: 12px;
@@ -828,8 +828,8 @@ transition: fill var(--transition);
 .privacy-policy{
     text-decoration: underline;
     color: rgba(77, 90, 229, 1);
-}
-.what-write{
+} */
+/* .what-write{
 display: block;
 margin-bottom: 4px;
 font-size: 12px;
@@ -837,21 +837,21 @@ line-height: 1.16;
 font-weight: 400;
 letter-spacing: 0.01em;
 color: #8E8F99;
-}
+} */
 
 /* ===============/FORM============ */
 
    
    /* ===============FOOTER-FORM============ */
-.footer-form-container{
+/* .footer-form-container{
 margin-left: auto;
  }
 .form-footer{
 display: flex;
 align-items: baseline;
- justify-content: space-evenly; */
-}
-.footer-form-input{
+ justify-content: space-evenly; 
+} */
+/* .footer-form-input{
     color: white;
     width: 264px;
     height: 40px;
@@ -897,7 +897,7 @@ color: #FFFFFF;
     }
 .label-footer{
     margin-right: 24px;
-}
+} */
  /* ===============/FOOTER-FORM============ */
   
 
