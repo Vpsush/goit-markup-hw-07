@@ -2,20 +2,22 @@
 .container{
       padding: 0 15px;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 .index-connection{
             display: none;
 }
+.body-nav-link{
+    display: none;
 }
-@media screen and (min-width: 480px){
-.container{
-    display: flex;
-    margin: 0 auto;
-    width: 458px;}
-.menu .list{
+}
+@media screen and (min-width: 768px){
+.menu {
         display: none;
-}    
 }
+.mobile-menu-btn{
+    display: none;
+}
+} 
 
 
 .hero-navigation{
@@ -111,7 +113,7 @@
     padding-bottom: 23.5px;
 }
 .mobile-menu-btn{
-    /* background: transparent; */
+    background: transparent;
     border: none;
     padding: 0;
     line-height: 0;
@@ -141,14 +143,19 @@
 /* +++++++++++++++++++++++++MOBILE MENU+++++++++++++++++++++++++ */
 .mobile-menu{
     position: fixed;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
     z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
     background-color: #FFFFFF;;
 box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
+}
+.mobile-menu .js-open{
+    transform: translateX(0);   
 }
 .mobile-menu-close-button{
     display: flex;
@@ -166,17 +173,17 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 padding: 0;
 transition: background-color var(--transition), border var(--transition) ;
 }
-/* .mobile-menu-close-button:hover,
+ .mobile-menu-close-button:hover,
 .mobile-menu-close-button:focus{
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
-} */
-/* .modal-close-button-icon{
+} 
+.modal-close-button-icon{
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 stroke:rgba(46, 47, 66, 1);
-} */
-.mobile-hero-navigation{
+} 
+ .mobile-hero-navigation{
     display: flex;
     align-items: center;
 }
@@ -246,5 +253,5 @@ stroke:rgba(46, 47, 66, 1);
 .social-list-link:hover,
 .social-list-link:focus{
     background-color: #404bbf;
-}
+} 
 /* +++++++++++++++++++++++++/MOBILE MENU+++++++++++++++++++++++++ */
