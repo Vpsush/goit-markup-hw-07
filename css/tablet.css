@@ -2,4 +2,31 @@
     .container{
         margin: 0 auto;
         width: 768px}
+.navigation{
+    display: flex;
+    align-items: center;
+   }
+.hero-navigation{
+    width: 100vw;
+
+}
+.body-logo{
+    align-items: center;
+}
+.index-connection{
+    flex-direction: column;
+}
+.main-title{
+    width: auto;
+    height: auto;
+}
+.list-features-icon{
+    display: none;
+}
+.list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
     }

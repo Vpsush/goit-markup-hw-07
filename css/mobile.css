@@ -2,6 +2,7 @@
 .container{
       padding: 0 15px;
 }
+.main-head{margin: auto;}
 @media screen and (max-width: 767px){
 .index-connection{
             display: none;
@@ -9,6 +10,29 @@
 .body-nav-link{
     display: none;
 }
+.section{
+    width: 100vw;
+    height: 100vh;
+}
+.descuption{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.list-features-icon{
+    display: none;
+}
+.list-products{
+    display: none;
+}
+.list{
+    flex-direction: column;
+}
+/* .photo{
+    width: 264px;
+    height: 260px;
+} */
+}
+
 }
 @media screen and (min-width: 768px){
 .menu {
@@ -17,6 +41,11 @@
 .mobile-menu-btn{
     display: none;
 }
+.main-title{
+    width: 320px;
+    height: 80px;
+    }
+
 } 
 
 
@@ -77,35 +106,7 @@
         text-decoration: none;
     }
     
-    /* .achivement-container{
-        display: flex;
-        width: 264px;
-        height: 112px;
-        background: #F4F4FD;
-        border-radius: 4px;
-        align-items: center; 
-        justify-content: center;
-        margin-bottom: 8px;
-    } */
-    
-    /* .wrapper{
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    } */
-    /* .visually-hidden{
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inherit(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
-    
-    }   */
+  
     
 /* +++++++++++++++HEAD+++++++++++++++++++++ */
 .main-head{
