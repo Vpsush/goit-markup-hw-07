@@ -29,11 +29,26 @@
 .list{
     flex-direction: column;
 }
+.features{
+    text-align: center;
+    margin-right: 16px;
+    margin-left: 16px;
+   }
 
-/* .photo{
-    width: 264px;
-    height: 260px;
-} */
+.photo{
+   margin-left: auto;
+   margin-right: auto;
+  
+}
+.social-list{
+flex-direction: row;
+}
+.name-job{
+    text-align: center;
+}
+.products{
+    text-align: center;
+}
 }
 
 
@@ -48,7 +63,7 @@
 .main-title{
     width: 320px;
     height: 80px;
-    }
+     }
 
 } 
 .main-section{ 
@@ -57,9 +72,9 @@
    url(../images/Dark-bg-mobile.jpg);
 }
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
 .main-section{ 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/Dark-bg@2x-mobile.jpg);}
