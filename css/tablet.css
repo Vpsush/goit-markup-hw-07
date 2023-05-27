@@ -36,6 +36,16 @@
 .mobile-menu-btn{
     display: none;
 }
+.menu {
+    display: none;
+}
+.menu-toggle{
+display: none;
+}
+.main-title{
+width: 320px;
+height: 80px;
+ }
 /* .index-connection{
     flex-direction: column;
 } */
