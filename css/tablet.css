@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){
+/* @media screen and (min-width: 768px){
     .container{
         margin: 0 auto;
         width: 768px}
@@ -45,12 +45,12 @@ display: none;
 .main-title{
 width: 320px;
 height: 80px;
- }
+ } */
 /* .index-connection{
     flex-direction: column;
 } */
     }
-.main-section{  
+/* .main-section{  
   height: 436px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/Dark-bg-tablet.jpg);
@@ -62,4 +62,4 @@ height: 80px;
 .main-section{ 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/Dark-bg@2x-tablet.jpg);}
-}
+} */

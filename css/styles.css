@@ -306,25 +306,25 @@ transition: border-color var(--transition), color var(--transition) ;
 .features-portfolio-menu{
     position: relative;
     color: #404bbf; ;
-}
+} */
 .hero-navigation{
     display: flex;
     align-items: center;
 }
 
-.img{
+/* .img{
     flex-wrap: wrap; 
     row-gap: 48px;
     display: flex;
     justify-content: space-between;
-}
+} */
 .index-connection{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.information{
+ /* .information{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
@@ -335,12 +335,12 @@ transition: border-color var(--transition), color var(--transition) ;
 }
 .list-features{
     width: calc((100% - 72px) / 4); 
-}
+} */
 .list-index-connection{ 
     display: flex;
      gap: 40px;
 }
-.list-products{
+/* .list-products{
       padding-bottom: 120px; 
 }
  .logo {     
@@ -394,7 +394,7 @@ transition: border-color var(--transition), color var(--transition) ;
 .mail-index:hover, 
 .mail-index:focus{
       color: #404bbf; 
-} */
+} */  
 .main-head{
     border-bottom: 1px solid #e7e9fc;
     box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -450,13 +450,13 @@ transition: border-color var(--transition), color var(--transition) ;
 }
 .name-job{
     padding: 32px 0
-}
+} */
 .navigation{
     display: flex; 
     align-items: center; 
     margin-right: auto;
 }
-.nav-link{
+/* .nav-link{
     position: relative;
     font-weight: 500;
     font-size: 16px;
@@ -517,7 +517,7 @@ transition: border-color var(--transition), color var(--transition) ;
 }
 .section-buttons{
     padding: 96px 0 120px;
-}
+} */
 .social-media{
     font-weight: 500;
 font-size: 16px;
@@ -580,7 +580,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 }
-.task{
+/* .task{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -628,7 +628,7 @@ overflow: hidden;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-}  */
+}  */ 
 
 /* ===============BACKDROP============ */
 /* .backdrop{
@@ -960,7 +960,28 @@ flex-direction: row;
     padding: 0;
     line-height: 0;
 }
+/* +++++++Main section++++++++++++ */
+.main-section{
+    margin-bottom: 0;
 }
+.main-title{
+    /* margin-top: 112px;  */
+}
+/* +++++++++++++++++++++++ACHIVEMENT++++++++++++++++++++ */
+.features{
+    margin-bottom: 8px;
+}
+.descuption{
+    margin-bottom: auto;
+}
+/* +++++++++++++++++++=EMPLOEE++++++++++++++++ */
+.employee{
+    margin-top: 96px;
+}
+/* +++++++++++++++++++ /EMPLOEE++++++++++++++++ */
+}
+
+
 .main-section{ 
     height: 432px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -1042,8 +1063,94 @@ transition: background-color var(--transition), border var(--transition) ;
 .mobile-body-nav-link:focus{
     color: #404bbf;
 }
+/* +++++++++++++++++++++++++++++++++++++/MOBIE+++++++++++++++++++++++++++++++ */
 
 
+
+/* +++++++++++++++++++++++++++++++++++++TABLET+++++++++++++++++++++++++++++++++*/
+@media screen and (min-width: 768px){
+    .container{
+        margin: 0 auto;
+        width: 768px}
+.navigation{
+    display: flex;
+    align-items: center;
+   }
+.hero-navigation{
+    width: 100vw;
+
+}
+.body-logo{
+    align-items: center;
+}
+.index-connection{
+    flex-direction: column;
+}
+.main-title{
+    width: auto;
+    height: auto;
+}
+.list-features-icon{
+    display: none;
+}
+.list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.list-index-connection{
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+.mobile-menu-btn{
+    display: none;
+}
+.menu {
+    display: none;
+}
+.menu-toggle{
+display: none;
+}
+.main-title{
+width: 320px;
+height: 80px;
+ }
+/* .index-connection{
+    flex-direction: column;
+} */
+    }
+.main-section{  
+  height: 436px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+   url(../images/Dark-bg-tablet.jpg);
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.main-section{ 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+   url(../images/Dark-bg@2x-tablet.jpg);}
+}
+  /* +++++++++++++++++++++++++++++DESKTOP+++++++++++++++++++  */
+@media screen and (min-width: 1200px){
+    .container{
+        margin: 0 auto;
+        width: 1158px}
+.list-index-connection{
+    
+    flex-direction: row;
+}
+    }
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+.main-section{ 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+   url(../images/people-office@2x.jpg);}
+}
 
 
 

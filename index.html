@@ -17,7 +17,7 @@
   <link 
   rel="stylesheet" 
   href="./css/styles.css"/>
-  <link 
+  <!-- <link 
   rel="stylesheet" 
   href="./css/mobile.css"/>
   <link 
@@ -25,7 +25,7 @@
   href="./css/tablet.css"/>
   <link 
   rel="stylesheet" 
-  href="./css/desktop.css"/>
+  href="./css/desktop.css"/> -->
   <!-- ++++++++++BODY++++++++ -->
 <body class="hero">
   <header class="main-head "> 
@@ -125,7 +125,11 @@
     <h2 class="products" >Our Team</h2>
     <ul class="list">
       <li class="photo">
-        <img src="./images/imployee/img.jpg" alt="Mark Guerrero" width="264">
+        <img 
+        srcset="./images/imployee/img-mobile.jpg 1x, ./images/imployee/img-mobile@2x.jpg 2x, ./images/imployee/img-tablet.jpg 1x, ./images/imployee/img-tablet@2x.jpg 2x, ./images/imployee/img-desktop.jpg 1x, ./images/imployee/img-desktop@2x.jpg 2x,"
+        src="./images/imployee/img.jpg" 
+        alt="Mark Guerrero" 
+        width="264">
          <div class="name-job"> 
         <h3 class ="whom">Mark Guerrero</h3>
           <p class="position">Product Designer</p>
