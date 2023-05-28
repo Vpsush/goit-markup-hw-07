@@ -1003,8 +1003,8 @@ flex-direction: row;
 .container {
     min-width: 320px;
     max-width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -1056,8 +1056,15 @@ flex-direction: row;
     border: none;
     border-radius: 50%;
     outline: none;
+    
   }
-  
+.close-toggle{
+    /* margin-top: 24px;
+    margin-right: 24px; */
+   border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 0;
+}
+
   @media (min-width: 768px) {
     .menu-toggle {
       display: none;
@@ -1076,7 +1083,7 @@ flex-direction: row;
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3fb553;
+    background-color: rgba(255, 255, 255, 1);
     z-index: 999;
   
     transform: translateX(100%);
@@ -1089,8 +1096,8 @@ flex-direction: row;
   
   .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 24px;
+    right: 24px;
     color: #fff;
   }
   
@@ -1103,7 +1110,6 @@ flex-direction: row;
   .mobile-menu .link {
     display: block;
     padding: 10px;
-    color: #fff;
     text-decoration: none;
   }
 .mobile-hero-navigation{
@@ -1117,8 +1123,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;}
 .list-index-connection{
-    margin-top: 284px;
-    font-size: 36px;
+ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -1132,16 +1137,37 @@ text-transform: capitalize;
 }
 .mobile-index-connection{
     margin-top: 284px;
-   padding-right: 15px;
+   /* padding-right: 15px; */
    margin-bottom: 48px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-
-
+.mobile-tel{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #4D5AE5;
+margin-left: 25px;
+}
+.mobile-mail{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+text-transform:lowercase;
+margin-left: 25px;
+}
+.link-mobile-body-nav-link{
+    color: #404BBF;
+}
+.mobile-body-nav-link{
+    color: #2E2F42;
+}
 /* ++++++++++++++++++++++++++++++++++++++/MOBILE MENU+++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++/MOBIE+++++++++++++++++++++++++++++++ */
 

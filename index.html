@@ -126,12 +126,13 @@
     <ul class="list">
       <li class="photo">
         <img 
-        srcset="./images/imployee/img-mobile.jpg 1x, ./images/imployee/img-mobile@2x.jpg 2x" media="(max-width: 767px)"
-        src="./images/imployee/img-mobile.jpg" 
-        srcset="./images/imployee/img-tablet.jpg 1x, ./images/imployee/img-tablet@2x.jpg 2x" media="(min-width: 768px)"
-        src="./images/imployee/img-tablet.jpg" 
-        srcset="./images/imployee/img-desktop.jpg 1x, ./images/imployee/img-desktop@2x.jpg 2x" media="(min-width: 1200px)"
-        src="./images/imployee/desktop.jpg" 
+        srcset="./images/imployee/img-mobile.jpg 1x,  ./images/imployee/img-mobile@2x.jpg 2x, 
+                ./images/imployee/img-tablet.jpg 1x, ./images/imployee/img-tablet@2x.jpg 2x, 
+                ./images/imployee/img-desktop.jpg 1x, ./images/imployee/img-desktop@2x.jpg 2x"
+        sizes="(max-width: 767px),
+               (min-width: 768px),
+               (min-width: 1200px)"
+        src="./images/imployee/img-mobile.jpg"  
         alt="Mark Guerrero" 
         width="264">
          <div class="name-job"> 
@@ -348,7 +349,7 @@
         </ul>
        </div>
 </section>  -->
-  <!-- </main> -->
+  </main>
   <!-- <footer class="footer">
     <div class="footer-container container">
       <div class="logo-footer-conclusion">
@@ -491,7 +492,7 @@
 </div>
   </div> -->
   <div class="menu-container js-menu-container" id="mobile-menu">
-    <button class="menu-toggle js-close-menu" >
+    <button class="menu-toggle close-toggle js-close-menu" >
       <svg class="modal-close-button-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-modal-close">
         </use>
@@ -499,18 +500,18 @@
       </button>
       <div class="mobile-hero-navigation container">
         <ul class="mobile-menu list">
-          <li class="mobile-menu-body-nav-link"><a class="mobile-body-nav-link link" href="./index.html">Studio</a></li>
+          <li class="mobile-menu-body-nav-link"><a class="link-mobile-body-nav-link link" href="./index.html">Studio</a></li>
           <li ><a class="mobile-body-nav-link link" href="./portfolio.html">Portfolio</a></li>
           <li ><a class="mobile-body-nav-link link" href="">Contacts</a></li>
         </ul>
-    </nav>
+    <!-- </nav> -->
   </div>
   <address class="mobile-index-connection">
     <ul class="mobile-list-index-connection list">
       <li class="list-information">
-        <a class="mobile-mail link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <a class="mobile-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       <li class="list-information link">
-        <a class="mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <a class="mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
     </ul>
   </address> 
   <ul class="social-list list">
@@ -541,7 +542,7 @@
     <li class="social-list-item">
       <a href="" class="social-list-link">
         <svg class="social-list-icon" width="16" height="16">
-          <use href="./images/icons.svg#icon-linkedin">
+          <use href="./images/icons.svg#icon-linkedin-1">
           </use>
         </svg>
       </a>
