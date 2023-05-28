@@ -126,8 +126,12 @@
     <ul class="list">
       <li class="photo">
         <img 
-        srcset="./images/imployee/img-mobile.jpg 1x, ./images/imployee/img-mobile@2x.jpg 2x, ./images/imployee/img-tablet.jpg 1x, ./images/imployee/img-tablet@2x.jpg 2x, ./images/imployee/img-desktop.jpg 1x, ./images/imployee/img-desktop@2x.jpg 2x,"
-        src="./images/imployee/img.jpg" 
+        srcset="./images/imployee/img-mobile.jpg 1x, ./images/imployee/img-mobile@2x.jpg 2x" media="(max-width: 767px)"
+        src="./images/imployee/img-mobile.jpg" 
+        srcset="./images/imployee/img-tablet.jpg 1x, ./images/imployee/img-tablet@2x.jpg 2x" media="(min-width: 768px)"
+        src="./images/imployee/img-tablet.jpg" 
+        srcset="./images/imployee/img-desktop.jpg 1x, ./images/imployee/img-desktop@2x.jpg 2x" media="(min-width: 1200px)"
+        src="./images/imployee/desktop.jpg" 
         alt="Mark Guerrero" 
         width="264">
          <div class="name-job"> 
