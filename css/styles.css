@@ -962,10 +962,12 @@ flex-direction: row;
 }
 /* +++++++Main section++++++++++++ */
 .main-section{
-    margin-bottom: 0;
+    /* max-width: 320px; */
+   
 }
 .main-title{
-    /* margin-top: 112px;  */
+    font-size: 36px;
+    line-height: 1,11;
 }
 /* +++++++++++++++++++++++ACHIVEMENT++++++++++++++++++++ */
 .features{
@@ -983,8 +985,7 @@ flex-direction: row;
 
 
 .main-section{ 
-    height: 432px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/Dark-bg-mobile.jpg);
 }
 
@@ -1248,16 +1249,19 @@ transition: background-color var(--transition), border var(--transition) ;
 .menu-toggle{
 display: none;
 }
+.section{
+    /* padding: 112px; */
+}
 .main-title{
-width: 320px;
-height: 80px;
+    
+    font-size: 56px;
+    line-height: 1.07;
  }
 /* .index-connection{
     flex-direction: column;
 } */
     }
 .main-section{  
-  height: 436px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/Dark-bg-tablet.jpg);
 }
