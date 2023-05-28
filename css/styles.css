@@ -316,12 +316,8 @@ transition: border-color var(--transition), color var(--transition) ;
     display: flex;
     justify-content: space-between;
 }
-.index-connection{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+
+
 .information{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -983,19 +979,6 @@ flex-direction: row;
 /* +++++++++++++++++++ /EMPLOEE++++++++++++++++ */
 }
 
-
-/* .main-section{ 
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-   url(../images/Dark-bg-mobile.jpg);
-}
-
-@media screen and (min-device-pixel-ratio: 2),
-screen and (min-resolution: 192dpi),
-screen and (min-resolution: 2dppx) {
-.main-section{ 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-   url(../images/Dark-bg@2x-mobile.jpg);}
-} */
 .main-section {
     min-height: 600px;
     background-image: url(../images/Dark-bg-mobile.jpg);
@@ -1093,7 +1076,7 @@ screen and (min-resolution: 2dppx) {
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #3f51b5;
+    background-color: #3fb553;
     z-index: 999;
   
     transform: translateX(100%);
@@ -1123,6 +1106,41 @@ screen and (min-resolution: 2dppx) {
     color: #fff;
     text-decoration: none;
   }
+.mobile-hero-navigation{
+    margin-top: 80px;
+}
+.mobile-menu{
+    font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;}
+.list-index-connection{
+    margin-top: 284px;
+    font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+}
+.mobile-mail{
+    font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.mobile-index-connection{
+    margin-top: 284px;
+   padding-right: 15px;
+   margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
 /* ++++++++++++++++++++++++++++++++++++++/MOBILE MENU+++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++/MOBIE+++++++++++++++++++++++++++++++ */
 
