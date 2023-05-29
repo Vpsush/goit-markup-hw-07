@@ -984,28 +984,30 @@ width:100vw;
     margin-top: 96px;
 }
 /* +++++++++++++++++++ /EMPLOEE++++++++++++++++ */
-}
+
 
 .main-section {
     min-height: 600px;
-    background-image: url(../images/Dark-bg-mobile.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobile.jpg);
     background-position: center top;
     /* background-size: 960px 576px; */
     background-repeat: no-repeat;
   }
+  .hero-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
   /* screen 2x + 0px - 767px */
   @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
     screen and (min-resolution: 192dpi) and (max-width: 767px),
     screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .main-section {
-      background-image: url(../images/Dark-bg@2x-mobile.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x-mobile.jpg);
     }
   }
-.hero-navigation{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 /* ++++++++++++++++++++++++++++++++++++++++MOBILE MENU+++++++++++++++++++++++++ */
 .container {
     min-width: 320px;
@@ -1216,6 +1218,9 @@ margin-left: 25px;
 .menu {
     display: none;
 }
+.menu-mobile{
+    flex-wrap: nowrap;
+}
 .menu-toggle{
 display: none;
 }
@@ -1223,9 +1228,10 @@ display: none;
     /* padding: 112px; */
 }
 .main-title{
-    
+    text-align: center;
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 36px;
  }
 /* .index-connection{
     flex-direction: column;
@@ -1247,7 +1253,7 @@ display: none;
 /* 768px + */
 @media screen and (min-width: 768px) {
     .main-section {
-      background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/Dark-bg-tablet.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tablet.jpg);
     }
   }
   /* screen 2x + 768px + */
@@ -1255,7 +1261,7 @@ display: none;
     screen and (min-resolution: 192dpi) and (min-width: 768px),
     screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .main-section {
-      background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/Dark-bg@2x-tablet.jpg);
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x-tablet.jpg);
     }
   }
   /* +++++++++++++++++++++++++++++DESKTOP+++++++++++++++++++  */
