@@ -125,7 +125,7 @@
     <h2 class="products" >Our Team</h2>
     <ul class="list">
       <li class="photo">
-        <img 
+        <!-- <img 
         srcset="./images/imployee/img-mobile.jpg 1x,  ./images/imployee/img-mobile@2x.jpg 2x, 
                 ./images/imployee/img-tablet.jpg 1x, ./images/imployee/img-tablet@2x.jpg 2x, 
                 ./images/imployee/img-desktop.jpg 1x, ./images/imployee/img-desktop@2x.jpg 2x"
@@ -134,7 +134,52 @@
                (min-width: 1200px)"
         src="./images/imployee/img-mobile.jpg"  
         alt="Mark Guerrero" 
-        width="264">
+        width="264"> -->
+         
+         
+<picture>
+  <!-- Desktop screen -->
+ <source
+ media="(min-width:1200px)"
+ srcset="./images/imployee/img-desktop.jpg 1x, ./images/imployee/img@2x-desktop.jpg 2x"
+ type="image/webp"
+/>
+<source
+ media="(min-width: 1200px)"
+ srcset="./images/imployee/img-desktop.jpg 1x, ./images/imployee/img@2x-desktop.jpg 2x"
+ type="image/jpg"
+/>
+<!-- Tablet screen -->
+<source
+ media="(min-width: 768px)"
+ srcset="./images/imployee/img-tablet.jpg 1x, ./images/imployee/img@2x-tablet.jpg 2x"
+ type="image/webp"
+/>
+<source
+ media="(min-width: 768px)"
+ srcset="./images/imployee/img-desktop.jpg 1x, ./images/imployee/img@2x-desktop.jpg 2x"
+ type="image/jpg"
+ /> 
+<!-- Mobile screen -->
+ <source
+ media="(max-width: 767px)"
+ srcset="./images/imployee/img-mobile.jpg 1x, ./images/imployee/img-mobile@2x.jpg 2x"
+ type="image/webp"
+/>
+<source
+ media="(max-width: 767px)"
+ srcset="./images/imployee/img-mobile.jpg 1x, ./images/imployee/img-mobile@2x-desktop.jpg 2x"
+ type="image/jpg"
+/> 
+<img
+ class="card-img"
+ src="./images/imployee/img-desktop.jpg"
+ alt="Mark Guerrero"
+ width="264"
+ height="260"
+ loading="lazy"
+/>
+</picture>
          <div class="name-job"> 
         <h3 class ="whom">Mark Guerrero</h3>
           <p class="position">Product Designer</p>
@@ -174,10 +219,53 @@
            </ul>
         </div></li>
           <li class="photo">
-            <img 
+            <!-- <img 
             src="./images/imployee/img(1).jpg" 
             alt="Tom Ford" 
-            width="264">
+            width="264"> -->
+            <picture>
+              <!-- Desktop screen -->
+             <source
+             media="(min-width:1200px)"
+             srcset="./images/imployee/1img-desktop.jpg 1x, ./images/imployee/1img@2x-desktop.jpg 2x"
+             type="image/webp"
+            />
+            <source
+             media="(min-width: 1200px)"
+             srcset="./images/imployee/1img-desktop.jpg 1x, ./images/imployee/1img@2x-desktop.jpg 2x"
+             type="image/jpg"
+            />
+            <!-- Tablet screen -->
+            <source
+             media="(min-width: 768px)"
+             srcset="./images/imployee/1img-tablet.jpg 1x, ./images/imployee/1img@2x-tablet.jpg 2x"
+             type="image/webp"
+            />
+            <source
+             media="(min-width: 768px)"
+             srcset="./images/imployee/1img-tablet.jpg 1x, ./images/imployee/1img@2x-tablet.jpg 2x"
+             type="image/jpg"
+             /> 
+            <!-- Mobile screen -->
+             <source
+             media="(max-width: 767px)"
+             srcset="./images/imployee/1img-mobile.jpg 1x, ./images/imployee/1img@2x-mobile.jpg 2x"
+             type="image/webp"
+            />
+            <source
+             media="(max-width: 767px)"
+             srcset="./images/imployee/1img-mobile.jpg 1x, ./images/imployee/1img@2x-mobile.jpg 2x"
+             type="image/jpg"
+            /> 
+            <img
+             class="card-img"
+             src="./images/imployee/img-desktop.jpg"
+             alt="Tom Ford"
+             width="264"
+             height="260"
+             loading="lazy"
+            />
+            </picture>
           <div class="name-job">
             <h3 class="whom">Tom Ford</h3>
           <p class="position">Frontend Developer </p>
@@ -215,7 +303,51 @@
               </a>
             </li>
            </ul></div></li>
-      <li class="photo"><img src="./images/imployee/img(2).jpg" alt="Camila Garcia" width="264">
+      <li class="photo">
+        <!-- <img src="./images/imployee/img(2).jpg" alt="Camila Garcia" width="264"> -->
+        <picture>
+          <!-- Desktop screen -->
+         <source
+         media="(min-width:1200px)"
+         srcset="./images/imployee/2img-desktop.jpg 1x, ./images/imployee/2img@2x-desktop.jpg 2x"
+         type="image/webp"
+        />
+        <source
+         media="(min-width: 1200px)"
+         srcset="./images/imployee/2img-desktop.jpg 1x, ./images/imployee/2img@2x-desktop.jpg 2x"
+         type="image/jpg"
+        />
+        <!-- Tablet screen -->
+        <source
+         media="(min-width: 768px)"
+         srcset="./images/imployee/2img-tablet.jpg 1x, ./images/imployee/2img@2x-tablet.jpg 2x"
+         type="image/webp"
+        />
+        <source
+         media="(min-width: 768px)"
+         srcset="./images/imployee/2img-tablet.jpg 1x, ./images/imployee/2img@2x-tablet.jpg 2x"
+         type="image/jpg"
+         /> 
+        <!-- Mobile screen -->
+         <source
+         media="(max-width: 767px)"
+         srcset="./images/imployee/2img-mobile.jpg 1x, ./images/imployee/2img@2x-mobile.jpg 2x"
+         type="image/webp"
+        />
+        <source
+         media="(max-width: 767px)"
+         srcset="./images/imployee/2img-mobile.jpg 1x, ./images/imployee/2img@2x-mobile.jpg 2x"
+         type="image/jpg"
+        /> 
+        <img
+         class="card-img"
+         src="./images/imployee/img-desktop.jpg"
+         alt="Camila Garcia"
+         width="264"
+         height="260"
+         loading="lazy"
+        />
+        </picture>
           <div class="name-job">
         <h3 class="whom">Camila Garcia</h3>
           <p class="position">Marketing</p>
@@ -253,7 +385,51 @@
               </a>
             </li>
            </ul></div></li>
-      <li class="photo"><img src="./images/imployee/img(3).jpg" alt="Daniel Wilson" width="264">
+      <li class="photo">
+        <!-- <img src="./images/imployee/img(3).jpg" alt="Daniel Wilson" width="264"> -->
+        <picture>
+          <!-- Desktop screen -->
+         <source
+         media="(min-width:1200px)"
+         srcset="./images/imployee/3img-desktop.jpg 1x, ./images/imployee/3img@2x-desktop.jpg 2x"
+         type="image/webp"
+        />
+        <source
+         media="(min-width: 1200px)"
+         srcset="./images/imployee/3img-desktop.jpg 1x, ./images/imployee/3img@2x-desktop.jpg 2x"
+         type="image/jpg"
+        />
+        <!-- Tablet screen -->
+        <source
+         media="(min-width: 768px)"
+         srcset="./images/imployee/3img-tablet.jpg 1x, ./images/imployee/3img@2x-tablet.jpg 2x"
+         type="image/webp"
+        />
+        <source
+         media="(min-width: 768px)"
+         srcset="./images/imployee/3img-tablet.jpg 1x, ./images/imployee/3img@2x-tablet.jpg 2x"
+         type="image/jpg"
+         /> 
+        <!-- Mobile screen -->
+         <source
+         media="(max-width: 767px)"
+         srcset="./images/imployee/3img-mobile.jpg 1x, ./images/imployee/3img@2x-mobile.jpg 2x"
+         type="image/webp"
+        />
+        <source
+         media="(max-width: 767px)"
+         srcset="./images/imployee/3img-mobile.jpg 1x, ./images/imployee/3img@2x-mobile.jpg 2x"
+         type="image/jpg"
+        /> 
+        <img
+         class="card-img"
+         src="./images/imployee/img-desktop.jpg"
+         alt="Daniel Wilson"
+         width="264"
+         height="260"
+         loading="lazy"
+        />
+        </picture>
          <div class="name-job">
         <h3 class="whom">Daniel Wilson</h3>
           <p class="position">UI Designer</p>
