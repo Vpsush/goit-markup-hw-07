@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&ampfamily=Roboto:wght@400;500;700&ampdisplay=swap"
       rel="stylesheet"
     />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"/>
@@ -33,7 +33,14 @@
         <li class="list-information">
           <a class="mail link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul>
-    </address>  
+    </address> 
+    <button class="menu-toggle js-open-menu" 
+    aria-expanded="false" 
+    aria-controls="mobile-menu">
+<svg class="mobile-menu-open-icon" width="32" height="22">
+<use href="./images/icons.svg#icon-burger"></use>
+</svg>
+</button> 
   </div>
   </header>
 <main>
@@ -41,7 +48,7 @@
     <div class="container">
       <h1 class="visually-hidden" hidden>features</h1>
     <ul class="list-button list">
-      <li > <button class="btn" type = "button" >All</button></li>
+      <li > <button class="btn button" type = "button" >All</button></li>
       <li > <button class="btn" type = "button">Web Site</button></li>
       <li > <button class="btn" type = "button"  >App</button></li>
       <li > <button class="btn" type = "button" >Design</button></li>
@@ -246,6 +253,69 @@
     </div>
 
   </footer>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <div class="total-mobile-menu">
+    <button class="menu-toggle close-toggle js-close-menu" >
+      <svg class="modal-close-button-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-modal-close">
+        </use>
+      </svg>
+      </button>
+            <ul class="mobile-menu list">
+          <li class="mobile-menu-body-nav-link"><a class="link-mobile-body-nav-link link" href="./index.html">Studio</a></li>
+          <li ><a class="mobile-body-nav-link link" href="./portfolio.html">Portfolio</a></li>
+          <li ><a class="mobile-body-nav-link link" href="">Contacts</a></li>
+        </ul>
+    <address class="mobile-index-connection">
+    <ul class="mobile-list-index-connection list">
+      <li class="list-information">
+        <a class="mobile-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <li class="list-information link">
+        <a class="mobile-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+    </ul>
+  </address>
+</div> 
+  <ul class="social-list list">
+    <li class="social-list-item">
+      <a href="" class="social-list-link">
+        <svg class="social-list-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-instagram-2">
+          </use>
+        </svg>
+      </a>
+    </li>
+    <li class="social-list-item">
+      <a href="" class="social-list-link">
+        <svg class="social-list-icon" width="24" height="19.5">
+          <use href="./images/icons.svg#icon-Vector-6">
+          </use>
+        </svg>
+      </a>
+    </li>
+    <li class="social-list-item">
+      <a href="" class="social-list-link">
+        <svg class="social-list-icon" width="19" height="24">
+          <use href="./images/icons.svg#icon-Vector-7">
+          </use>
+        </svg>
+      </a>
+    </li>
+    <li class="social-list-item">
+      <a href="" class="social-list-link">
+        <svg class="social-list-icon" width="16" height="16">
+          <use href="./images/icons.svg#icon-linkedin-1">
+          </use>
+        </svg>
+      </a>
+    </li>
+   </ul>
+  </div>
+  <script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
 </body>
 </html>
 
