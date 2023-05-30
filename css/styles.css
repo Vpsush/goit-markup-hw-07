@@ -407,6 +407,7 @@ transition: border-color var(--transition), color var(--transition) ;
     } 
 .main-title{
     margin: auto;
+    max-width: 320px;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07 ;
@@ -835,15 +836,15 @@ color: #8E8F99;
 
    
    /* ===============FOOTER-FORM============ */
-/* .footer-form-container{
+ .footer-form-container{
 margin-left: auto;
  }
 .form-footer{
 display: flex;
 align-items: baseline;
  justify-content: space-evenly; 
-} */
-/* .footer-form-input{
+} 
+.footer-form-input{
     color: white;
     width: 264px;
     height: 40px;
@@ -867,7 +868,6 @@ letter-spacing: 0.04em;
 }
  .email-subscribe{
     width: 77px;
-    
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -889,15 +889,18 @@ color: #FFFFFF;
     }
 .label-footer{
     margin-right: 24px;
-} */
+} 
  /* ===============/FOOTER-FORM============ */
-  
- .container{
-    padding: 0 15px;
-}
+ .container {
+     max-width: 428px;
+     margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 .main-head{
   margin: auto;}
-
+/* +++++++++++++++++++++++++++++++++++++++++MOBILE+++++++++++++++++++++++++++++++ */
 @media screen and (max-width: 767px){
 .menu-mobile{
   display: none;
@@ -908,9 +911,7 @@ color: #FFFFFF;
 .body-nav-link{
   display: none;
 }
-/* .features{
-  margin: 0;
-} */
+
 .descuption{
   width: 100%;
   flex-wrap: wrap;
@@ -967,32 +968,47 @@ flex-direction: row;
 .features{
 justify-content: center;
     margin-bottom: 8px;
-
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,11;
+        text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+        color: #2E2F42;
 }
 .descuption{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1,5px;
+letter-spacing: 0.02em;
+color: #434455;
     margin-right: 16px;
     margin-left: 16px;
 }
 .achivement{
+    margin-top: 96px;
     padding: 0;
 }
 .achivement-container{
     display: none;
 }
+.list{
+    /* gap: 72px; */
+}
 
 /* +++++++++++++++++++=EMPLOEE++++++++++++++++ */
 .employee{
-    padding: 0;
+    /* padding: 0; */
 }
 .photo{
     width: 264px;
     margin-left: 82px;
     margin-right: 82px;
-    margin-bottom: 96px;
+  
  
 }
-.list{
-    margin-bottom: 24px;
+.products{
+   margin-bottom: 72px;
 }
 /* +++++++++++++++++++ /EMPLOEE++++++++++++++++ */
 
@@ -1003,16 +1019,74 @@ justify-content: center;
 }
 .customers{
       margin-top:96px ;
-      margin-bottom: 72px;
+      /* margin-bottom: 72px; */
       
 }
 .customers-list{
     flex-direction: row;
 flex-wrap: wrap;
-/* width: 190px; */
+margin-bottom: 96px;
 gap: 16px;
+justify-content: center;
+}
+.customers-list-item{
+    width: calc((100% - 120px) / 2);
+    justify-content: center;
 }
 /* ++++++++++++++++++++++++++++++++/customers-section+++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++FOOTER++++++++++++++++++++++ */
+.footer-container{
+    flex-direction: column;
+    gap: 72px;
+}
+.social-list-footer{
+    flex-direction: row;
+   
+}
+.logo-footer-conclusion{
+    margin: auto;
+    
+}
+.conclusion{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+.logo-footer{
+    text-align: center;
+    font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+/* display: flex; */
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* color: #F4F4FD; */
+}
+.footer-social-media{
+    margin: auto;
+    text-align: center;
+}
+.form-footer{
+    display: block;
+}
+.footer-form-container{
+    margin: auto;
+}
+.label-footer{
+    margin: 0;
+}
+.footer-form-input{
+    width: 398px;
+height: 40px;
+left: 15px;
+margin-bottom: 16px;
+}
+/* ++++++++++++++++++++++++++++++++++++++/FOOTER++++++++++++++++++++++ */
 .main-section {
     min-height: 600px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobile.jpg);
@@ -1036,12 +1110,12 @@ gap: 16px;
   }
 
 /* ++++++++++++++++++++++++++++++++++++++++MOBILE MENU+++++++++++++++++++++++++ */
-.container {
+/* .container {
     min-width: 320px;
     max-width: 428px;
      margin-left: auto;
     margin-right: auto;
-  }
+  } */
   
   .main-head {
     box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
@@ -1207,7 +1281,7 @@ margin-left: 25px;
 @media screen and (min-width: 768px){
     .container{
          margin: 0 auto;
-        width: 768px;
+        max-width: 768px;
     }
 .achivement{
     padding-top: 0;
@@ -1297,7 +1371,7 @@ display: none;
 @media screen and (min-width: 1200px){
     .container{
         margin: 0 auto;
-        width: 1158px}
+        max-width: 1158px}
 .list-index-connection{
     
     flex-direction: row;
