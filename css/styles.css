@@ -93,7 +93,7 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 120px 0;
+    /* padding: 120px 0; */
     }
 .achivement-container{
     display: flex;
@@ -1141,7 +1141,7 @@ margin-bottom: 16px;
 .list-button{
     display: flex;
     flex-direction: row;
-    /* margin-left: auto; */
+    margin-left: auto;
 }
 
 /* ++++++++++++++++++++++++++++++++/SECTION BUTTONS++++++++++++++++++++++ */
@@ -1367,18 +1367,69 @@ margin-left: 25px;
          margin: 0 auto;
         max-width: 768px;
     }
+ .container {
+        min-width: 429px;
+        max-width: 768px;
+         margin-left: auto;
+        margin-right: auto;
+      }
+/* +++++++++++++++++++++++++++++++HEADER TABLET++++++++++++++++++++++++++++++++ */
+.menu-mobile{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #404BBF;
+}
+.index-connection{
+    flex-direction: column;
+    
+}
+.list-information{
+    margin: 0;
+    text-transform:lowercase;
+}
+.body-nav-link{
+padding-bottom: 40px;
+}
+.mail{
+    text-transform: capitalize;  
+}
+/* +++++++++++++++++++++++++++++++/HEADER TABLET ++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++MAIN SECTION++++++++++++++++++++++++ */
+.main-title{
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+ }
+ .main-section{
+    margin-bottom: 96px;
+ }
+
+/* ++++++++++++++++++++++++++++++++++++/MAIN SECTION++++++++++++++++++++++++ */
+
+/* +++++++++++++++++++++++++++++++++++++ACHIVEMENT TABLET++++++++++++++++++++++++++ */
+.full-list-features{
+    /* display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-right: 0; */
+    width: calc((100% - 72px) / 2);  
+}
+/*  +++++++++++++++++++++++++++++++++++++ACHIVEMENT TABLET++++++++++++++++++++++++++ */ */
 .achivement{
-    padding-top: 0;
+    padding: 0;
 }
 .achivement-container{ 
     display: none;
 }
-.container {
-    min-width: 429px;
-    max-width: 768px;
-     margin-left: auto;
-    margin-right: auto;
-  }
+
 .navigation{
     display: flex;
     align-items: center;
@@ -1390,16 +1441,14 @@ margin-left: 25px;
 .body-logo{
     align-items: center;
 }
-.index-connection{
-    flex-direction: column;
-}
+
 .list-features-icon{
     display: none;
 }
 .list{
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    /* width: 100%; */
 }
 .list-index-connection{
     display: flex;
@@ -1412,27 +1461,15 @@ margin-left: 25px;
 .menu {
     display: none;
 }
-.menu-mobile{
-    flex-wrap: nowrap;
-}
+
 .menu-toggle{
 display: none;
 }
 .section{
-    /* padding: 112px; */
+   
 }
-.main-title{
-    text-align: center;
-    font-size: 56px;
-    line-height: 1.07;
-    margin-bottom: 36px;
- }
- .main-section{
-    margin-bottom: 96px;
- }
-/* .index-connection{
-    flex-direction: column;
-} */
+
+
     }
 
 
@@ -1456,13 +1493,62 @@ display: none;
     .container{
         margin: 0 auto;
         max-width: 1158px}
-.list-index-connection{
+/* ++++++++++++++++++++++++++++++++++++++HEADER DESKTOP+++++++++++++++++++++++++++++++++ */
+.index-connection{
+    margin: auto;
+  justify-content: center;
+}
+.list-information{
+    text-transform:lowercase;
+}.list-index-connection{
     
     flex-direction: row;
 }
-.list-features{
+/* ++++++++++++++++++++++++++++++++++++++/HEADER DESKTOP+++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++ACHIVEMENT DESKTOP+++++++++++++++++++++++++++++++++ */
+.achivement{
+    padding: 0;
+}
+.full-list-features{
+    /* display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-right: 0; */
     width: calc((100% - 72px) / 4); 
 }
+.features{
+     font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.descuption{
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* ++++++++++++++++++++++++++++++++++++++/ACHIVEMENT DESKTOP+++++++++++++++++++++++++++++++++ */
+
+
+/* +++++++++++++++++++++++++++++++++++++PRODUCTS DESKTOP+++++++++++++++++++++++++++++ */
+.product-list{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.our-products{
+    width: 360px;
+    height: 300px;
+}
+/* +++++++++++++++++++++++++++++++++++++/PRODUCTS DESKTOP+++++++++++++++++++++++++++++ */
+
+
 .customers-list-item{
     width: calc((100% - 120px) / 6);
     height :88px;
@@ -1472,13 +1558,7 @@ display: none;
 }
     }
 
-/* @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-.main-section{ 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-   url(../images/people-office@2x.jpg);}
-} */
+
 /* 1200px + */
 @media screen and (min-width: 1200px) {
   .main-section{
