@@ -1258,15 +1258,18 @@ padding: 0;
   .menu-container {
     display: flex;
     flex-direction: column;
+    gap: 40px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-    height:100vh;
+    height:100%;
     padding: 32px;
     background-color: rgba(255, 255, 255, 1);
     z-index: 999;
-  
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-bottom: 40px;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
@@ -1297,6 +1300,9 @@ text-transform: capitalize;
 color: #2E2F42;
 margin-bottom: 284px;
 list-style: none;
+display: flex;
+flex-direction: column;
+gap: 40px;
 }
 .list-index-connection{
  font-size: 36px;
@@ -1306,9 +1312,7 @@ text-transform: capitalize;
 
 }
 .total-mobile-menu{
-    padding-top: 80px;
-    padding-left: 40px;
-    padding-bottom: 40px;
+  
 }
 .mobile-mail{
     font-size: 36px;
@@ -1322,6 +1326,7 @@ text-transform: capitalize;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
 }
 .mobile-tel{
     font-weight: 700;
@@ -1330,6 +1335,7 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #4D5AE5;
+
 }
 .mobile-mail{
     font-weight: 500;
@@ -1345,6 +1351,9 @@ margin-left: 25px;
 }
 .mobile-body-nav-link{
     color: #2E2F42;
+}
+.list-information{
+    margin-bottom: 40px;
 }
 /* ++++++++++++++++++++++++++++++++++++++/MOBILE MENU+++++++++++++++++++++++++ */
 /* +++++++++++++++++++++++++++++++++++++/MOBIE+++++++++++++++++++++++++++++++ */
