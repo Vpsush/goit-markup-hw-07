@@ -1139,8 +1139,9 @@ margin-bottom: 16px;
     gap: 24px;
 }
 .list-button{
+    display: flex;
     flex-direction: row;
-    margin-left: 16px;
+    /* margin-left: auto; */
 }
 
 /* ++++++++++++++++++++++++++++++++/SECTION BUTTONS++++++++++++++++++++++ */
