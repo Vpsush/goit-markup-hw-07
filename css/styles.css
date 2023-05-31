@@ -26,8 +26,8 @@ address{
 
 .list{ 
     list-style: none;
-    display: flex;
-    gap: 24px; 
+    /* display: flex; */
+    /* gap: 24px;  */
 }
 .link{
     text-decoration: none;
@@ -911,7 +911,6 @@ color: #FFFFFF;
 .body-nav-link{
   display: none;
 }
-
 .descuption{
   width: 100%;
   flex-wrap: wrap;
@@ -921,9 +920,6 @@ color: #FFFFFF;
 }
 .list-products{
   display: none;
-}
-.list{
-  flex-direction: column;
 }
 .features{
   text-align: center;
@@ -976,15 +972,18 @@ justify-content: center;
     text-transform: capitalize;
         color: #2E2F42;
 }
+.full-list-features{
+    margin-bottom: 96px;
+    margin-left: 16px;
+    margin-right: 16px;
+ }
 .descuption{
     font-weight: 500;
 font-size: 16px;
 line-height: 1,5px;
 letter-spacing: 0.02em;
 color: #434455;
-    margin-right: 16px;
-    margin-left: 16px;
-}
+   }
 .achivement{
     margin-top: 96px;
     padding: 0;
@@ -992,23 +991,43 @@ color: #434455;
 .achivement-container{
     display: none;
 }
-.list{
-    /* gap: 72px; */
-}
+
 
 /* +++++++++++++++++++=EMPLOEE++++++++++++++++ */
 .employee{
     /* padding: 0; */
 }
 .photo{
+
     width: 264px;
     margin-left: 82px;
     margin-right: 82px;
-  
- 
 }
 .products{
    margin-bottom: 72px;
+}
+.team-list{
+    flex-direction: column;
+ display: flex;
+    gap: 72px; 
+}
+.whom{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.position{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
+
+
 }
 /* +++++++++++++++++++ /EMPLOEE++++++++++++++++ */
 
@@ -1023,6 +1042,7 @@ color: #434455;
       
 }
 .customers-list{
+    display: flex;
     flex-direction: row;
 flex-wrap: wrap;
 margin-bottom: 96px;
@@ -1047,7 +1067,12 @@ justify-content: center;
 }
 .logo-footer-conclusion{
     margin: auto;
+    text-align: center;
     
+}
+.logo-footer{
+    margin: 0;
+    margin-bottom: 17.5px;
 }
 .conclusion{
     font-weight: 400;
@@ -1061,11 +1086,10 @@ color: #F4F4FD;
     font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-/* display: flex; */
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-/* color: #F4F4FD; */
+
 }
 .footer-social-media{
     margin: auto;
@@ -1085,6 +1109,14 @@ text-transform: uppercase;
 height: 40px;
 left: 15px;
 margin-bottom: 16px;
+}
+.social-media{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.form-footer-btn{
+    margin: auto;
 }
 /* ++++++++++++++++++++++++++++++++++++++/FOOTER++++++++++++++++++++++ */
 
