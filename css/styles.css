@@ -1134,6 +1134,12 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: space-between;
 }
+.contact-form{
+    display: none;
+}
+.modal-close-button{
+    display: none;
+}
 }
   /* screen 2x + 0px - 767px */
   @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -1142,6 +1148,7 @@ margin-bottom: 16px;
     .main-section {
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x-mobile.jpg);
     }
+    
   }
 
 /* ++++++++++++++++++++++++++++++++++++++++MOBILE MENU+++++++++++++++++++++++++ */

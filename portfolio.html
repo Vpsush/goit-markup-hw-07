@@ -58,7 +58,50 @@
       <li class="total-information">
          <a class="total-information-link link" href="" >
           <div class="total-information-list">
-           <img src="./images/galary/1.jpg" alt="banking app interface concept" width="360"> 
+           <!-- <img src="./images/galary/1.jpg" alt="banking app interface concept" width="360">  -->
+           <picture>
+            <!-- Desktop screen -->
+           <source
+           media="(min-width:1200px)"
+           srcset="./images/galary/1.jpg 1x, ./images/galary/img-1-mobile.jpg 2x"
+           type="image/webp"
+          />
+          <source
+           media="(min-width: 1200px)"
+           srcset="../images/galary/img-1-mobile.jpg 1x, ./images/galary/img-1-mobile.jpg 2x"
+           type="image/jpg"
+          />
+          <!-- Tablet screen -->
+          <source
+           media="(min-width: 768px)"
+           srcset="./images/galary/img-1-tablet.jpg 1x, ./images/img@2x-1-tablet.jpg 2x"
+           type="image/webp"
+          />
+          <source
+           media="(min-width: 768px)"
+           srcset="./images/galary/img-1-tablet.jpg 1x, ./images/img@2x-1-tablet.jpg 2x"
+           type="image/jpg"
+           /> 
+          <!-- Mobile screen -->
+          <source
+          media="(min-width:1200px)"
+          srcset="./images/galary/img-1-mobile.jpg 1x, ./images/galary/img-1-mobile.jpg 2x"
+          type="image/webp"
+         />
+         <source
+          media="(min-width: 1200px)"
+          srcset="../images/galary/img-1-mobile.jpg 1x, ./images/galary/img-1-mobile.jpg 2x"
+          type="image/jpg"
+         />
+          <img
+           class="card-img"
+           src="./images/galary/1.jpg"
+           alt="banking app interface concept"
+           width="396"
+           height="280"
+           loading="lazy"
+          />
+          </picture>
            <p class="overlay">
             14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
            </p>
