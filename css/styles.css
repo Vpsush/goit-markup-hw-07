@@ -295,7 +295,7 @@ transition: border-color var(--transition), color var(--transition) ;
     letter-spacing: 0.02em;
     color: #2E2F42;
     display: flex;
-    gap: 24px;
+    /* gap: 24px; */
     margin-bottom: 8px;     
 }
 .features-portfolio{
@@ -509,6 +509,7 @@ transition: border-color var(--transition), color var(--transition) ;
     text-transform: capitalize;
     color: #2E2F42;
     margin-bottom: 72px;  
+    padding-top: 96px;
 }
 .section-buttons{
     padding: 96px 0 120px;
@@ -1216,7 +1217,7 @@ margin-bottom: 16px;
   }
   
   .menu .link {
-    padding: 10px;
+   
     color: inherit;
     text-decoration: none;
   }
@@ -1393,10 +1394,20 @@ color: #404BBF;
     text-transform:lowercase;
 }
 .body-nav-link{
-padding-bottom: 40px;
+padding-bottom: 24px;
 }
 .mail{
-    text-transform: capitalize;  
+    text-transform: lowercase; 
+}
+.menu-container{
+    display: none;
+}
+.list-index-connection{
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #434455;
 }
 /* +++++++++++++++++++++++++++++++/HEADER TABLET ++++++++++++++++++++++++++++++++ */
 
@@ -1416,11 +1427,17 @@ padding-bottom: 40px;
 
 /* +++++++++++++++++++++++++++++++++++++ACHIVEMENT TABLET++++++++++++++++++++++++++ */
 .full-list-features{
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    padding: 0;
-    margin-right: 0; */
-    width: calc((100% - 72px) / 2);  
+    flex-wrap: wrap;
+ 
+}
+.list-features{
+    width: calc((100% - 24px) / 2); 
+    margin-bottom: 72px; 
+}
+.body-nav-link{
+    display: block;
 }
 /*  +++++++++++++++++++++++++++++++++++++ACHIVEMENT TABLET++++++++++++++++++++++++++ */ 
 .achivement{
@@ -1491,14 +1508,13 @@ display: none;
     padding: 0;
     margin: 0;
     gap: 24px;
-    /* flex-wrap: wrap;  */
+    padding-bottom: 96px;
     justify-content: center;
    
 }
 .photo{
     width: 264px;
-    height: 260px;
-}
+    }
 /* ++++++++++++++++++++++++++++++++/EMPLOYEE TABLET++++++++++++++++++++++++ */
 
 
@@ -1521,6 +1537,16 @@ display: none;
 /* ++++++++++++++++++++++++++++++++FOOTER TABLET++++++++++++++++++++++++ */
 .footer-form-container{
     flex-direction: column;
+}
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-footer-conclusion{
+     margin-bottom: 72px;
+}
+.footer-form-container{
+    margin-left: 0;
 }
 
 /* ++++++++++++++++++++++++++++++++/FOOTER TABLET++++++++++++++++++++++++ */
@@ -1552,7 +1578,7 @@ justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 356px;
+    
     
 }
 
@@ -1610,7 +1636,7 @@ justify-content: center;
 .features{
      font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
