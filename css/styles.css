@@ -413,14 +413,15 @@ transition: border-color var(--transition), color var(--transition) ;
 }
 .main-section{ 
     background-color: #2e2f42;
-    padding: 112px 0;
+    /* padding: 112px 0; */
     /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/people-office.jpg); */
     background-repeat: no-repeat; 
   background-position: center; 
   background-size: cover;
   /* max-width: 1440px;  */
-  height: 600px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   margin: auto;
     } 
 .main-title{
@@ -1634,6 +1635,8 @@ justify-content: center;
 .main-section{
     max-width: 1440px;
     height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 /* ++++++++++++++++++++++++++++++++++++++ACHIVEMENT DESKTOP+++++++++++++++++++++++++++++++++ */
 .achivement{
