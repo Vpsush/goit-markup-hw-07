@@ -381,7 +381,7 @@ transition: border-color var(--transition), color var(--transition) ;
     margin-right: 76px;}
     
 .logo-footer-conclusion{
-    margin-right: 120px;
+    /* margin-right: 120px; */
 }
 .mail{
     font-weight: 400;
@@ -413,19 +413,19 @@ transition: border-color var(--transition), color var(--transition) ;
 }
 .main-section{ 
     background-color: #2e2f42;
-    padding: 188px 0;
+    padding: 112px 0;
     /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
    url(../images/people-office.jpg); */
     background-repeat: no-repeat; 
   background-position: center; 
   background-size: cover;
-  max-width: 1440px; 
+  /* max-width: 1440px;  */
   height: 600px;
   margin: auto;
     } 
 .main-title{
     margin: auto;
-    max-width: 320px;
+    /* max-width: 320px; */
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07 ;
@@ -975,7 +975,7 @@ flex-direction: row;
 /* +++++++Main section++++++++++++ */
 .main-title{
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
 }
 /* +++++++++++++++++++++++ACHIVEMENT++++++++++++++++++++ */
 .features{
@@ -990,14 +990,14 @@ justify-content: center;
         color: #2E2F42;
 }
 .full-list-features{
-    margin-bottom: 96px;
+    /* margin-bottom: 96px;
     margin-left: 16px;
-    margin-right: 16px;
+    margin-right: 16px; */
  }
 .descuption{
     font-weight: 500;
 font-size: 16px;
-line-height: 1,5px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
    }
@@ -1179,7 +1179,7 @@ margin-bottom: 16px;
 
 /* +++++++++++++++++++++++++++++++++++++++/IMGES++++++++++++++++++++++++++++++++ */
 .main-section {
-    width: 428px;
+    max-width: 428px;
     height: 432px;
     /* min-height: 600px; */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mobile.jpg);
@@ -1303,7 +1303,7 @@ padding: 0;
     text-decoration: none;
   }
 .social-list{
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .mobile-menu{
     font-weight: 700;
@@ -1312,10 +1312,11 @@ line-height: 40px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
-margin-bottom: 284px;
+/* margin-bottom: 284px; */
 list-style: none;
 display: flex;
 flex-direction: column;
+bottom: auto;
 gap: 40px;
 }
 .list-index-connection{
@@ -1325,9 +1326,9 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 
 }
-.total-mobile-menu{
+/* .total-mobile-menu{
   
-}
+} */
 .mobile-mail{
     font-size: 36px;
 line-height: 1.11;
@@ -1422,16 +1423,16 @@ color: #434455;
 
 /* ++++++++++++++++++++++++++++++++++++MAIN SECTION TABLET++++++++++++++++++++++++ */
 .main-title{
-    max-width: 496px; 
+    width: 496px; 
     text-align: center;
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 36px;
  }
  .main-section{
-    width: 768px;
+    max-width: 768px;
     height: 436px;
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
  }
 
 /* ++++++++++++++++++++++++++++++++++++/MAIN SECTION TABLET++++++++++++++++++++++++ */
@@ -1441,6 +1442,7 @@ color: #434455;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 96px;
  }
 .list-features{
     width: calc((100% - 24px) / 2); 
@@ -1451,6 +1453,7 @@ color: #434455;
 }
 /*  +++++++++++++++++++++++++++++++++++++ACHIVEMENT TABLET++++++++++++++++++++++++++ */ 
 .achivement{
+   
     padding: 0;
 }
 .achivement-container{ 
@@ -1546,7 +1549,8 @@ display: none;
     flex-wrap: wrap;
 }
 .logo-footer-conclusion{
-     margin-bottom: 72px;
+     /* margin-bottom: 72px; */
+     margin-right: 24px;
 }
 .footer-form-container{
     margin-left: 0;
@@ -1628,7 +1632,7 @@ justify-content: center;
 /* ++++++++++++++++++++++++++++++++++++++/HEADER DESKTOP+++++++++++++++++++++++++++++++++ */
 
 .main-section{
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
 }
 /* ++++++++++++++++++++++++++++++++++++++ACHIVEMENT DESKTOP+++++++++++++++++++++++++++++++++ */
@@ -1713,7 +1717,9 @@ color: #434455;
 .footer-form-container{
     margin-left: auto;
 }
-
+.footer-social-media{
+    margin-left: auto;
+}
 /* ++++++++++++++++++++++++++++++++++++/FOOTER DESKTOP+++++++++++++++++++++++ */
 
 
