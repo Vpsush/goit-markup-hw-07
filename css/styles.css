@@ -196,10 +196,10 @@ justify-content: center;
 .conclusion{
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     width: 264px;
@@ -303,7 +303,7 @@ transition: border-color var(--transition), color var(--transition) ;
 }
 
 .footer-container{
-    /* display: flex; */
+   /* gap: 72px; */
     align-items: baseline;
 }
 .features{
@@ -1085,11 +1085,13 @@ justify-content: center;
    
 }
 .logo-footer-conclusion{
-    margin: auto;
-    text-align: center;
+    /* margin: auto; */
+    margin-bottom: 72px;
+    /* text-align: center; */
     
 }
 .logo-footer{
+    display: block;
     margin: 0;
     margin-bottom: 17.5px;
 }
@@ -1192,12 +1194,12 @@ margin-bottom: 16px;
     align-items: center;
     justify-content: space-between;
 }
-.contact-form{
+/* .contact-form{
     display: none;
-}
-.modal-close-button{
+} */
+/* .modal-close-button{
     display: none;
-}
+} */
 }
   /* screen 2x + 0px - 767px */
   @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -1313,11 +1315,11 @@ line-height: 40px;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
-/* margin-bottom: 284px; */
 list-style: none;
 display: flex;
 flex-direction: column;
-bottom: auto;
+/* bottom: auto; */
+margin-bottom: auto;
 gap: 40px;
 }
 .list-index-connection{
@@ -1372,6 +1374,21 @@ margin-left: 25px;
     margin-bottom: 40px;
 }
 /* ++++++++++++++++++++++++++++++++++++++/MOBILE MENU+++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++MODAL MENU+++++++++++++++++++++++++++++++++++ */
+.modal{
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+    max-width: 594px;
+    overflow: scroll;
+}
+
+/* ++++++++++++++++++++++++++++/MODAL MENU+++++++++++++++++++++++++++++++++++ */
+
+
+
 /* +++++++++++++++++++++++++++++++++++++/MOBIE+++++++++++++++++++++++++++++++ */
 
 
@@ -1408,6 +1425,11 @@ padding-bottom: 24px;
 }
 .mail{
     text-transform: lowercase; 
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: #434455;
 }
 .menu-container{
     display: none;
@@ -1453,6 +1475,15 @@ color: #434455;
 }
 .body-nav-link{
     display: block;
+}
+.features{
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+
 }
 /*  +++++++++++++++++++++++++++++++++++++ACHIVEMENT TABLET++++++++++++++++++++++++++ */ 
 .achivement{
@@ -1516,7 +1547,7 @@ display: none;
     /* flex-direction: row; */
     padding: 0;
     margin: 0;
-    gap: 24px;
+    gap: 64px 24px;
     padding-bottom: 96px;
     justify-content: center;
    
@@ -1531,12 +1562,13 @@ display: none;
 .customers-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
    justify-content: center;
 
 }
 .customers-list-item{
     width: 168px;
+    height: 88px;
 
 }
 
@@ -1547,18 +1579,18 @@ display: none;
 .footer-form-container{
     flex-direction: column;
 }
-.footer-container{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .logo-footer-conclusion{
      /* margin-bottom: 72px; */
-     margin-right: 24px;
+     /* margin-right: 24px; */
 }
 .footer-form-container{
     margin-left: 0;
 }
-
+.footer-container{
+    display: flex;
+  
+}
 /* ++++++++++++++++++++++++++++++++/FOOTER TABLET++++++++++++++++++++++++ */
 
 
@@ -1612,6 +1644,12 @@ justify-content: center;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x-tablet.jpg);
     }
   }
+  @media screen and (min-width: 768px) and (max-width: 1157px){
+    .footer-container{
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        max-width: 550px;
+    }}
   /* +++++++++++++++++++++++++++++DESKTOP+++++++++++++++++++  */
   
 @media screen and (min-width: 1157px){
@@ -1709,8 +1747,8 @@ color: #434455;
 
 /* +++++++++++++++++++++++++++++++CUSTOMERS DESKTOP++++++++++++++++++++++++++++ */
 .customers-section{
-    /* padding-top: 72px; */
-     /* margin-top: 72px; */
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 
