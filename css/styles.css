@@ -280,12 +280,12 @@ transition: border-color var(--transition), color var(--transition) ;
     transform: translateY(0%);
 }
 
-.customers-section{
+/* .customers-section{
     padding-top: 72px; 
     padding-bottom: 72px;
-}
+} */
 .descuption{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -345,9 +345,6 @@ transition: border-color var(--transition), color var(--transition) ;
     justify-content: center; 
     margin-bottom: 72px; 
 }
-/* .list-features{
-    width: calc((100% - 72px) / 4); 
-}  */
 .list-index-connection{ 
     display: flex;
      gap: 40px;
@@ -527,8 +524,8 @@ transition: border-color var(--transition), color var(--transition) ;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;
-    margin-bottom: 72px;  
-    padding-top: 96px;
+    /* margin-bottom: 72px;  
+    padding-top: 96px; */
 }
 .section-buttons{
     padding: 96px 0 120px;
@@ -949,11 +946,9 @@ color: #FFFFFF;
   margin-right: 16px;
   margin-left: 16px;
  }
-
 .photo{
  margin-left: auto;
  margin-right: auto;
-
 }
 .social-list{
 flex-direction: row;
@@ -990,11 +985,6 @@ justify-content: center;
     text-transform: capitalize;
         color: #2E2F42;
 }
-.full-list-features{
-    /* margin-bottom: 96px;
-    margin-left: 16px;
-    margin-right: 16px; */
- }
 .descuption{
     font-weight: 500;
 font-size: 16px;
@@ -1009,17 +999,12 @@ color: #434455;
 .achivement-container{
     display: none;
 }
-
-
 /* +++++++++++++++++++=EMPLOEE++++++++++++++++ */
 .employee{
     padding-bottom: 96px;
 }
 .photo{
-
     width: 264px;
-    /* margin-left: 82px;
-    margin-right: 82px; */
 }
 .products{
    margin-bottom: 72px;
@@ -1044,8 +1029,6 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
-
-
 }
 /* +++++++++++++++++++ /EMPLOEE++++++++++++++++ */
 
@@ -1063,7 +1046,6 @@ color: #434455;
     display: flex;
     flex-direction: row;
 flex-wrap: wrap;
-/* margin-bottom: 96px; */
 gap:72px 16px;
 justify-content: center;
 }
@@ -1076,19 +1058,12 @@ justify-content: center;
 
 
 /* ++++++++++++++++++++++++++++++++++++++FOOTER++++++++++++++++++++++ */
-/* .footer-container{
-    flex-direction: column;
-    gap: 72px;
-} */
 .social-list-footer{
     flex-direction: row;
    
 }
 .logo-footer-conclusion{
-    /* margin: auto; */
     margin-bottom: 72px;
-    /* text-align: center; */
-    
 }
 .logo-footer{
     display: block;
@@ -1110,7 +1085,6 @@ line-height: 1.17;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 }
 .footer-social-media{
     margin-right: auto;
@@ -1145,9 +1119,7 @@ margin-bottom: 16px;
 
 
 /* +++++++++++++++++++++++++++++++++portfolio heder++++++++++++++++++++++ */
-.main-head{
-  
-}
+
 .connection{
     display: none;
 }
@@ -1466,8 +1438,8 @@ color: #434455;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
-    margin-top: 96px;
-    margin-bottom: 96px;
+    /* margin-top: 96px;
+    margin-bottom: 96px; */
  }
 .list-features{
     width: calc((100% - 24px) / 2); 
@@ -1488,7 +1460,7 @@ color: #2E2F42;
 /*  +++++++++++++++++++++++++++++++++++++ACHIVEMENT TABLET++++++++++++++++++++++++++ */ 
 .achivement{
    
-    padding: 0;
+    padding: 96px 0;
 }
 .achivement-container{ 
     display: none;
@@ -1540,7 +1512,7 @@ display: none;
 
 /* ++++++++++++++++++++++++++++++++EMPLOYEE TABLET++++++++++++++++++++++++ */
 .employee{
-    padding: 0;
+    padding: 96px 0;
 }
 .team-list{
     display: flex;
@@ -1548,7 +1520,7 @@ display: none;
     padding: 0;
     margin: 0;
     gap: 64px 24px;
-    padding-bottom: 96px;
+    /* padding-bottom: 96px; */
     justify-content: center;
    
 }
@@ -1571,7 +1543,9 @@ display: none;
     height: 88px;
 
 }
-
+.customers-section{
+    padding: 96px 0;
+}
 /* ++++++++++++++++++++++++++++++++/CUSTOMERS TABLET++++++++++++++++++++++++ */
 
 
@@ -1652,6 +1626,7 @@ justify-content: center;
     }}
   /* +++++++++++++++++++++++++++++DESKTOP+++++++++++++++++++  */
   
+  
 @media screen and (min-width: 1157px){
     /* .container{
         /* margin: 0 auto; */
@@ -1663,9 +1638,25 @@ justify-content: center;
 }
 .list-information{
     text-transform:lowercase;
-}.list-index-connection{
+    
+}
+.list-index-connection{
     
     flex-direction: row;
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.mail{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
 }
 .mobile-menu{
     display: none;
@@ -1677,10 +1668,14 @@ justify-content: center;
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
-}
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1-desktop.jpg);
+        /* background-position: center top;
+        background-repeat: no-repeat; */
+      }
+
 /* ++++++++++++++++++++++++++++++++++++++ACHIVEMENT DESKTOP+++++++++++++++++++++++++++++++++ */
 .achivement{
-    padding: 0;
+    padding-top: 120px;
 }
 .full-list-features{
         display: flex;
@@ -1691,11 +1686,11 @@ justify-content: center;
     }
 .list-features{
         width: calc((100% - 12px) / 4); 
-        margin-bottom: 72px; 
+        /* margin-bottom: 72px;  */
         
     }
 .descuption{
-    font-weight: 500;
+    font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -1707,12 +1702,20 @@ color: #434455;
 .list-features-icon{
     display: flex;
 }
+.features{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
 /* ++++++++++++++++++++++++++++++++++++++/ACHIVEMENT DESKTOP+++++++++++++++++++++++++++++++++ */
 
 
 /* +++++++++++++++++++++++++++++++++++++PRODUCTS DESKTOP+++++++++++++++++++++++++++++ */
 .list-products{
     display: flex;
+    padding-bottom: 120px;
 }
 .product-list{
     display: flex;
@@ -1723,6 +1726,9 @@ color: #434455;
 .our-products{
     width: 360px;
    
+}
+.products{
+    margin-bottom: 72px;
 }
 /* +++++++++++++++++++++++++++++++++++++/PRODUCTS DESKTOP+++++++++++++++++++++++++++++ */
 
@@ -1776,23 +1782,30 @@ color: #434455;
 .total-information{
     width: calc((100% - 48px) / 3);
 }
-    }
+}
 
 
 /* 1200px + */
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .main-section{
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/people-office1-desktop.jpg);
   }
-}
+} */
 /* 2x + 1200px + screen */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
   screen and (min-resolution: 192dpi) and (min-width: 1200px),
   screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .main-section {
-    background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/people-office@2x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url(../images/people-office1@2x-desktop.jpg);
   }
+}
 
+
+
+
+
+
+  
 
 
 
