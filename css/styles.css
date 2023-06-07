@@ -1724,8 +1724,7 @@ color: #2E2F42;
     gap: 24px;
 }
 .our-products{
-    width: 360px;
-   
+    width: 360px;  
 }
 .products{
     margin-bottom: 72px;
@@ -1740,7 +1739,6 @@ color: #2E2F42;
     gap: 24px;
     flex-wrap: nowrap;
 }
-
 /* ++++++++++++++++++++++++++++++++++++++++EMPLOYEE DESKTOP+++++++++++++++++++++++++++++++++ */
 
 
@@ -1749,9 +1747,6 @@ color: #2E2F42;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
-
-
 /* +++++++++++++++++++++++++++++++/CUSTOMERS DESKTOP++++++++++++++++++++++++++++ */
 
 
