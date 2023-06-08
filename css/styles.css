@@ -932,9 +932,9 @@ color: #FFFFFF;
   width: 100%;
   flex-wrap: wrap;
 }
-.list-features{
+/* .list-features{
     margin-bottom: 72px;
-}
+} */
 .list-features-icon{
   display: none;
 }
@@ -979,7 +979,7 @@ justify-content: center;
     margin-bottom: 8px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,11;
+    line-height: 1.11;
         text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -993,15 +993,21 @@ letter-spacing: 0.02em;
 color: #434455;
    }
 .achivement{
-    margin-top: 96px;
-    padding: 0;
-}
+    padding: 96px 0;
+   }
 .achivement-container{
     display: none;
+}
+.list-features {
+    margin-bottom: 72px;
+}
+.list-features :nth-last-child(4) {
+margin-bottom: 0;
 }
 /* +++++++++++++++++++=EMPLOEE++++++++++++++++ */
 .employee{
     padding-bottom: 96px;
+    padding-top: 96px;
 }
 .photo{
     width: 264px;
@@ -1036,6 +1042,7 @@ color: #434455;
 /* ++++++++++++++++++++++++++++++++=customers-section+++++++++++++++++++++++++++++++ */
 .customers-section{
     padding-bottom: 96px;
+    padding-top: 96px;
 }
 /* .customers{
       margin-top:96px ;
@@ -1443,8 +1450,7 @@ color: #434455;
  }
 .list-features{
     width: calc((100% - 24px) / 2); 
-    /* margin-bottom: 72px;  */
-}
+   }
 .body-nav-link{
     display: block;
 }
@@ -1481,7 +1487,7 @@ color: #2E2F42;
 }
 .list-index-connection{
     display: flex;
-    gap: 12px;
+    gap: 40px;
     flex-direction: column;
 }
 .mobile-menu-btn{
@@ -1504,6 +1510,9 @@ display: none;
 /* +++++++++++++++++++++++++++++++++++++PRODUCTS TABLET+++++++++++++++++++++++++++++ */
 .list-products{
     display: none;  
+}
+.products{
+    margin-bottom: 72px;
 }
 
 /* +++++++++++++++++++++++++++++++++++++/PRODUCTS TABLET+++++++++++++++++++++++++++++ */
@@ -1553,11 +1562,6 @@ display: none;
 .footer-form-container{
     flex-direction: column;
 }
-
-.logo-footer-conclusion{
-     /* margin-bottom: 72px; */
-     /* margin-right: 24px; */
-}
 .footer-form-container{
     margin-left: 0;
 }
@@ -1566,6 +1570,16 @@ display: none;
   
 }
 /* ++++++++++++++++++++++++++++++++/FOOTER TABLET++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++MODUL TABLET++++++++++++++++++++++++ */
+.modal{
+    width: 408px;
+    height: 584px;
+}
+
+/* ++++++++++++++++++++++++++++++++/MODUL TABLET++++++++++++++++++++++++ */
 
 
 /* ++++++++++++++++++++++++++++++++++HEADER PORTFOLIO TABLET+++++++++++++++++++ */
@@ -1685,9 +1699,7 @@ color: #434455;
      
     }
 .list-features{
-        width: calc((100% - 12px) / 4); 
-        /* margin-bottom: 72px;  */
-        
+        width: calc((100% - 12px) / 4);       
     }
 .descuption{
     font-weight: 400;
