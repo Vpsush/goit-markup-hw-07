@@ -998,8 +998,14 @@ color: #434455;
 .achivement-container{
     display: none;
 }
-.list-features {
+/* .list-features {
     margin-bottom: 72px;
+} */
+.full-list-features{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
 }
 .list-features :nth-last-child(4) {
 margin-bottom: 0;
@@ -1434,8 +1440,7 @@ color: #434455;
  .main-section{
     max-width: 768px;
     height: 436px;
-    /* margin-bottom: 96px; */
- }
+  }
 
 /* ++++++++++++++++++++++++++++++++++++/MAIN SECTION TABLET++++++++++++++++++++++++ */
 
@@ -1445,8 +1450,6 @@ color: #434455;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
-    /* margin-top: 96px;
-    margin-bottom: 96px; */
  }
 .list-features{
     width: calc((100% - 24px) / 2); 
